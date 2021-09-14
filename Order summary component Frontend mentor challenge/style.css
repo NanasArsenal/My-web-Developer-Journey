@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+
+
+body{
+    background: url(/images/pattern-background-desktop.svg) fixed;
+    background-color: lavender;
+    font-family: 'Fira Sans', sans-serif;
+  }
+
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
+
+  .container-order_summary{
+      background:aliceblue;
+      width: 400px;
+      border-radius: 20px;
+      
+    
+  }
+
+  img.illustration{
+      width: 100%;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+  }
+
+  .description{
+      justify-items: center;
+      padding-left: 20px;
+      padding-right: 20px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: grey;
+  }
+
+
+  /*Plan itenms below*/
+.plan{
+    display: inline-flex;
+    background-color: lavender; 
+    padding: 10px;
+    border-radius: 10px;
+    line-height: 15px;
+}
+.icon-music{
+    width: 10px;
+    height: 10px;
+    margin-right:px;
+}
+
+h4{
+    margin-left: 15px;
+}
+
+a{
+    padding-top: 25px;
+    margin-left: 10px;
+}
+  span{
+      color: grey;
+  }
+
+
+  /* Buttons*/
+
+  #proceed{
+      width: 60%;
+      padding: 5px;
+      color: aliceblue;
+      background-color: rgb(43, 46, 226);
+      font-family: 'Fira Sans', sans-serif;
+      border: 0ch;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+
+  #proceed:hover{
+      box-shadow: grey 1px 1px 1px 1px;
+      background-color: hsl(228, 45%, 44%);
+
+  }
+
+  #cancel{
+    width: 60%;
+    padding: 5px;
+    background-color: aliceblue;
+    font-family: 'Fira Sans', sans-serif;
+    border: 0ch;
+    border-radius: 5px; 
+    cursor: pointer;
+    margin-bottom: 40px;
+  }
+
+  #cancel:hover{
+      box-shadow: grey 1px 1px 1px 1px ;
+      color: grey;
+  }
+
+
