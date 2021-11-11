@@ -1,0 +1,269 @@
+
+    
+@media only screen and (max-width: 480px) {
+    img {
+      width: 100%;
+    }
+
+    .growtogether{
+        flex-wrap: wrap-reverse;
+    }
+    .gtcontent{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .gtimg img{
+       width: 50%;
+        padding-right: 500px;
+      }
+
+     .flwconvo{
+         flex-wrap: wrap;
+     } 
+
+     .flwimg img{
+         width: 50%;
+     }
+     .flwcontent{
+         align-items: center;
+         justify-content: center;
+         text-align: center;
+         margin-left: 10rem;
+     }
+
+     .yourusers{
+         flex-wrap: wrap-reverse;
+     }
+     .usersimg img{
+         width: 50%;
+        position: inherit;
+     }
+     .userscontent{
+         justify-content: center;
+         align-items: center;
+         margin-right: 10rem;
+     }
+
+     footer{
+         flex-wrap: wrap;
+     }
+
+     .contact ul li img{
+         max-width: 40%;
+     }
+
+    
+  }
+
+
+header{
+    margin: 2rem auto;
+    width: 80%;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+header a{
+    border: 1px solid hsl(322, 100%, 66%);
+    text-decoration: none;
+    padding: .5rem 1.2rem;
+    border-radius: 15px;
+    color: hsl(322, 100%, 66%);
+    font-size: .8rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+header a:hover{
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    transition: 0.7s linear;
+}
+header img{
+    width: 150px;
+}
+
+/*buildcommunity*/
+
+.buildcommunity{
+    margin-bottom: 150px;
+}
+
+
+.buildcommunity h1{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.buildcommunity p{
+    text-align: center;
+    max-width: 600px;
+    margin: 2rem auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: calc(1rem + .2vw);
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.buildcommunity a{
+    text-decoration: none;
+    background-color: hsl(322, 100%, 66%);
+    border: solid 2px hsl(322, 100%, 66%);
+    border-radius: 1.5rem;
+    padding: .5rem 1.2rem;
+    color: white;
+    font-weight: 600;
+    box-sizing: border-box;
+    font-size: .9rem;
+}
+body{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.firstimg{
+    max-width: 100%;
+    min-width: 50%;
+    display: block;
+}
+
+
+/*Stat components*/
+.stat{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.stat_block{
+    line-height: 15px;
+    padding: 100px;
+}
+
+
+/*MAIN SECTION*/
+
+
+.bg-sectiontop{
+
+    border: 1px solid hsl(207, 100%, 98%);
+}
+.bg-sectiontop img{
+   width: 100%;
+   margin-bottom: -1rem;
+}
+
+.bg-sectionbottom img{
+    width: 100%;
+}
+
+/*grow together*/
+.growtogether{
+    display: flex;
+    background: hsl(207, 100%, 98%);
+    align-items: center;
+    border: 1px solid hsl(207, 100%, 98%);
+    padding: 20px;
+    
+}
+
+.gtimg img{
+  max-width: 550px;
+  margin-left: 100px;
+  padding-right: 100px;
+}
+
+.gtcontent{
+    position: relative;
+    margin: 0 10rem;
+    text-align: left;
+}
+
+
+/*flowing conversation*/
+.flwconvo{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.flwimg img{
+   max-width: 550px; 
+   padding:0 5rem;
+
+}
+
+.flwcontent{
+    text-align: left;
+    margin-right:10rem;
+    
+}
+
+.yourusers{
+    display: flex;
+    background: hsl(207, 100%, 98%);
+    align-items: center;
+    
+}
+
+.userscontent{
+    text-align: left;
+   
+    margin-left: 180px;
+}
+
+.usersimg img{
+    max-width: 550px;
+    padding: 0 10rem;
+
+}
+
+
+/*footer */
+
+.footimg img{
+    width: 100%;
+    margin-bottom: -1rem;
+    color: white;
+}
+
+footer{
+    margin-top: 10px;
+    background-color: hsl(192, 100%, 9%);
+    display: flex;
+    color: aliceblue;
+}
+
+.contacts{
+    padding: 0 10rem;
+
+}
+.contacts ul{
+    list-style: none;
+    line-height: 30px;
+    text-align: left;
+   
+}
+
+.newsletter{
+    text-align: left;
+    padding: 0 10rem;
+    margin-bottom: 50px;
+}
+
+.textinpt{
+    padding: 10px;
+}
+
+.textinpt2{
+    padding: 12px;
+    color: aliceblue;
+    background-color: hsl(322, 100%, 66%);
+    border: 0;
+    cursor: pointer;
+}
