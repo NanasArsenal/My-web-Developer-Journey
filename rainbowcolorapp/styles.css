@@ -1,0 +1,14 @@
+body{
+   text-align: center;
+    align-items: center;
+}
+
+.container-fluid{
+    margin-left: 0%;
+    margin-top: 20%;
+    position:inherit;
+    display: block;
+    align-content: center;
+    align-items: center;
+}
+
