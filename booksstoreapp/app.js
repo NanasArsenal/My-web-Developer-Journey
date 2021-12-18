@@ -28,10 +28,19 @@ function createBooktable(e){
     trow.appendChild(bookname);
 
     tableBody.appendChild(trow);
+ 
+    
 
 
+    if(bookTitle.value=="" && bookNumber.value ==""){
+        trow.remove();
+    }
 
 
+    bookTitle.value="";
+    bookNumber.value ="";
+
+    
 
 
     e.preventDefault();
